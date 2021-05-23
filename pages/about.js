@@ -1,13 +1,11 @@
-import React from "react";
-import Layout from "@/components/Layout";
-const about = () => {
-  return (
-    <Layout title="About College Events">
-      <h1>About</h1>
-      <p>This is an app to find latest cultural events</p>
-      <p>Version:1.0.0</p>
-    </Layout>
-  );
-};
+import Layout from '@/components/Layout'
 
-export default about;
+export default function AboutPage() {
+  return (
+    <Layout title='About SIT College Events'>
+      <h1>About</h1>
+      <p>This is an app to find the latest DJ and other musical events</p>
+      <p>Version: 1.0.0</p>
+    </Layout>
+  )
+}

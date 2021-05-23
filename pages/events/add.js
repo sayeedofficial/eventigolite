@@ -1,10 +1,9 @@
-import Layout from "@/components/Layout"
+import Layout from '@/components/Layout'
 
-
-export default function add() {
+export default function AddEventPage() {
   return (
-    <Layout title="Add new Event">
-      <h1>Add Events</h1>
+    <Layout title='Add New Event'>
+      <h1>Add Event</h1>
     </Layout>
-  );
+  )
 }
